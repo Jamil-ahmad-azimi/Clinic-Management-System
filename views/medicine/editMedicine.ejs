@@ -1,0 +1,25 @@
+<body data-entity="medicine">
+<h3>Edit Medicine</h3>
+<form id="editForm">
+  <div class="row">
+    <div class="col-md-3 mb-3">
+      <label for="medicineId" class="form-label">Medicine ID</label>
+      <input type="text" class="form-control" id="medicineId" placeholder="Enter medicine ID to edit" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="medicineName" class="form-label">Name</label>
+      <input type="text" class="form-control" id="medicineName" placeholder="Enter new name" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="quantity" class="form-label">Quantity</label>
+      <input type="number" class="form-control" id="quantity" placeholder="Enter new quantity" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="expiryDate" class="form-label">Expiry Date</label>
+      <input type="date" class="form-control" id="expiryDate" required>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Update Medicine</button>
+</form>
+<script src="/js/entityScripts.js"></script>
+</body>

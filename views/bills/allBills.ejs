@@ -1,0 +1,33 @@
+<body data-entity="bills">
+<h3>All Bills</h3>
+<div class="mb-3 text-end">
+  <a href="/bills/newBill" class="btn btn-primary">Add Bill</a>
+</div>
+<div class="table-responsive">
+  <table class="table table-bordered table-hover table-striped text-center align-middle">
+    <thead class="table-dark">
+      <tr>
+        <th>Bill ID</th>
+        <th>Patient</th>
+        <th>Amount</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody id="entityTableBody">
+      <tr>
+        <td>1</td>
+        <td>John Smith</td>
+        <td>$200</td>
+        <td>2024-06-01</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mary Johnson</td>
+        <td>$150</td>
+        <td>2024-06-02</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script src="/js/entityScripts.js"></script>
+</body>

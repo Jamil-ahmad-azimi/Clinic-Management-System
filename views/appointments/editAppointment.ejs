@@ -1,0 +1,29 @@
+<body data-entity="appointments">
+<h3>Edit Appointment</h3>
+<form id="editForm">
+  <div class="row">
+    <div class="col-md-2 mb-3">
+      <label for="appointmentId" class="form-label">Appointment ID</label>
+      <input type="text" class="form-control" id="appointmentId" placeholder="Enter appointment ID to edit" required>
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="patient" class="form-label">Patient</label>
+      <input type="text" class="form-control" id="patient" placeholder="Enter new patient name" required>
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="doctor" class="form-label">Doctor</label>
+      <input type="text" class="form-control" id="doctor" placeholder="Enter new doctor name" required>
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="date" class="form-label">Date</label>
+      <input type="date" class="form-control" id="date" required>
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="status" class="form-label">Status</label>
+      <input type="text" class="form-control" id="status" placeholder="Enter new status" required>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Update Appointment</button>
+</form>
+<script src="/js/entityScripts.js"></script>
+</body>

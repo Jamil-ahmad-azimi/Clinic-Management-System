@@ -1,0 +1,32 @@
+<body data-entity="patiennts">
+<h3>Edit Patient</h3>
+<form id="editForm">
+  <div class="row">
+    <div class="col-md-3 mb-3">
+      <label for="patientId" class="form-label">Patient ID</label>
+      <input type="text" class="form-control" id="patientId" placeholder="Enter patient ID to edit" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="patientName" class="form-label">Name</label>
+      <input type="text" class="form-control" id="patientName" placeholder="Enter new name" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="age" class="form-label">Age</label>
+      <input type="number" class="form-control" id="age" placeholder="Enter new age" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="gender" class="form-label">Gender</label>
+      <select class="form-select" id="gender" required>
+        <option value="" disabled selected>Select gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Update Patient</button>
+</form>
+<script src="/js/entityScripts.js"></script>
+</body>
+
+

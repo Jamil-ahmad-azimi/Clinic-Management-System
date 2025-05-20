@@ -1,0 +1,5 @@
+/* Custom styles for table padding */
+.table-responsive {
+    padding-left: 15px;
+    padding-right: 15px;
+}

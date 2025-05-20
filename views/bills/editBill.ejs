@@ -1,0 +1,25 @@
+<body data-entity="bills">
+<h3>Edit Bill</h3>
+<form id="editForm">
+  <div class="row">
+    <div class="col-md-3 mb-3">
+      <label for="billId" class="form-label">Bill ID</label>
+      <input type="text" class="form-control" id="billId" placeholder="Enter bill ID to edit" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="patient" class="form-label">Patient</label>
+      <input type="text" class="form-control" id="patient" placeholder="Enter new patient name" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="amount" class="form-label">Amount</label>
+      <input type="number" class="form-control" id="amount" placeholder="Enter new amount" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="date" class="form-label">Date</label>
+      <input type="date" class="form-control" id="date" required>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Update Bill</button>
+</form>
+<script src="/js/entityScripts.js"></script>
+</body>
